@@ -13,6 +13,13 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
     <script type="text/javascript">
+    <script src= "https://raw.githubusercontent.com/alexisramirez/Prueba-Login-Facebook/master/flogin.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    $(document).ready(function(){
+    $('#login').facebook.login({
+    appId: '417958405007824'
+    });
+    
       $(document).ready(function () {
         $('#main_content').headsmart()
       })
@@ -34,6 +41,8 @@
           <span class="right-tail"></span>
         </span>
       </header>
+      
+      <div id="Login">login con facebook</div>
 
       <section id="downloads">
         <span class="inner">
